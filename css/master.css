@@ -1,0 +1,389 @@
+/**The Crux of the Matter!**/
+
+
+/**General XHTML Markup (body first, then alpha order)**/
+body{
+font-family: 'Oxygen', sans-serif;
+font-weight: 300; 
+background: url('img/bg.jpg');
+text-align: center;
+color: #d8ecd4;
+font-size: 13px;
+margin: 0;
+}
+
+a{ 
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: bold;
+color: #ffffff;
+text-transform: none;
+text-decoration: none;
+font-size: 13px;
+}
+
+a:visited{ 
+color: #ffffff;
+}
+
+a:hover, a h1:hover, a h2:hover, a h3:hover, a h4:hover, a h5:hover, a h4:hover{ 
+color: #d8ecd4;
+text-decoration: underline;
+}
+
+a img { 
+border: none; 
+}
+
+address{
+font-weight: bold; 
+}
+
+blockquote{
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: regular;
+font-style: italic;
+margin: 0 80px 0 80px;
+display: block;
+line-height: 19px;
+font-size: 16px;
+color: #ffffff;
+}
+
+form{
+text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6{
+color: #ffffff;
+font-style: italic;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: bold;
+margin: 0 0 15px 0;
+}
+
+br{ 
+margin: 10px 0 0 0; 
+}
+
+.hide{ 
+display: none; 
+}
+
+p{ 
+margin: 0; 
+padding: 0; 
+font-size: 13px; 
+color: #d8ecd4;
+line-height: 18px; 
+}
+
+strong{ font-weight: bold; }
+
+ul li, ol li{
+margin: 0;
+padding: 0;
+}
+
+
+/**LAYOUT STUFF (order of appearance)**/
+
+#headerlogo{
+margin: 0 0 0 250px;
+padding: 0;
+float: left;
+}
+
+#wrap{
+color: #d8ecd4;
+font-size: 14px;
+margin: 0;
+padding: 0;
+}
+
+
+#container{
+margin: 0 auto;
+text-align: left;
+width: 960px;
+padding: 0;
+}
+
+
+
+/****** Header Information ****/
+header{
+text-align: left;
+margin: 0 0 30px 0;
+}
+
+.headerwrap{
+margin: 0;
+padding: 0;
+width: 960px;
+float: left;
+}
+
+.headerside{
+margin: 0;
+padding: 0;
+float: left;
+}
+
+header nav{
+width: 940px;
+font-size: 22px;
+margin: 0;
+padding: 0;
+float: left;
+text-align: center;
+background: #d8ecd4;
+border: 1px #000000;
+border-style: solid none solid none;
+}
+
+header nav ul li{
+display: inline-block;
+margin: 0;
+padding: 0;
+}
+
+header nav a{ 
+display: block;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: bold;
+font-style: italic;
+color: #000000;
+text-transform: none;
+text-decoration: none;
+padding: 11px 12px 10px 12px;
+margin: 0;
+height: 16px;
+}
+
+header nav a:visited{ 
+color: #000000;
+}
+
+header nav a:hover{ 
+color: #1e1e1e;
+background: #ffffff;
+text-decoration: none;
+}
+
+#menudivider {
+display: block;
+height: 10px;
+width: 1px;
+background: #727578;
+margin: 0;
+padding: 0;
+}
+
+header .searchbar{
+float: right;
+padding-top: 20px;
+margin: 0 10px 0 0;
+}
+
+header .searchbar input{
+background: #4e4e4e;
+color: #ffffff;
+font-style: italic;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 14px;
+padding: 5px 5px 5px 10px;
+width: 180px;
+border-color: #1e1e1e;
+border-style: none;
+margin: 0;
+display: inline;
+}
+
+header .searchbar input[type="text"]{
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
+header .searchbar input[type="submit"]{
+background: #d8ecd4 url('img/search.jpg') center no-repeat;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+text-indent: -99999px;
+width: 40px;
+margin-left: -3px;
+}
+
+.hr{
+float: left;
+background-color: #d8ecd4;
+height: 1px;
+margin: 0;
+padding: 0;
+width: 940px;
+}
+
+hr{
+border: 1px #727578 solid;
+border-style: dotted none none none;
+margin: 0;
+padding: 0;
+}
+
+.index-info{
+width: 300px;
+}
+
+.indexspace1{
+height: 10px;
+}
+
+.indexspace2{
+height: 20px;
+}
+
+.contact-info1{
+width: 380px;
+}
+
+.contact-info2{
+width: 140px;
+text-align: center;
+}
+
+.contact-info3{
+width: 380px;
+text-align: right;
+}
+
+.blog-info{
+width: 460px;
+}
+
+.frock-info{
+width: 460px;
+text-align: center;
+}
+
+.news-info1{
+width: 680px;
+text-align: left;
+}
+
+.news-info2{
+width: 200px;
+text-align: center;
+}
+
+.index-info h3, .blog-info h3 .widget h3, .frock-info h3, .news-info1 h3, .news-info2 h3{
+margin: 0 0 5px 0; 
+padding: 0;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+}
+
+.index-info h2, .blog-info h2, .frock-info h2, .news-info1 h2, .news-info2 h2{
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #ffffff;
+margin: 0 0 5px 0; 
+padding: 0;
+font-size: 24px;
+}
+
+.index-info p, .blog-info p, .widget p, .frock-info p, .news-info1 p, .news-info2 p{
+padding: 0;
+margin: 0 0 10px 0;
+}
+
+.index-info h4, .blog-info h4, .frock-info h4, .news-info1 h4, .news-info2 h4{
+margin: 0 0 5px 0; 
+padding: 0;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: bold;
+font-size: 14px;
+}
+
+.title{
+margin: 0 10px 0 10px; 
+padding: 0;
+clear:both;
+display:block;
+}
+
+.title h2{
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #ffffff;
+margin: 0 0 5px 0;
+padding: 0;
+font-size: 24px;
+}
+
+.widget{
+border-top: 1px #727578 dotted;	
+}
+
+.byline{
+font-style: normal;
+font-size: 12px;
+color: #ffffff;
+}
+
+.byline a{
+font-style: normal;
+}
+
+.widget{
+padding-top: 15px;
+}
+
+footer{
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #d8ecd4;
+font-size: 14px;
+text-align: center;
+margin: 40px auto 50px auto;
+}
+
+footer a{
+color: #FFFFFF;
+font-style: italic;
+}
+
+footer a:hover{
+color: #d8ecd4;
+text-decoration: underline;
+}
+
+/**GENERAL CLASSES (alpha order)**/
+
+.left-col{
+float: left;
+margin: 5px 10px 20px 10px;
+display: block;
+}
+
+.right-col{
+float: right;
+margin: 5 10px 20px 10px;
+}
+
+
+.left{
+float: left;
+}
+
+.right{
+float: right;
+}
+
+
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
